@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+
+{% set page_head_title = 'Homepage' %}
+
+{% block page_head_css %}
+    <link rel="stylesheet" href="{{ url_for('homepage.static', filename='css/Main.css') }}"/>
+{% endblock %}
+
+{% block page_head_js %}
+    <script src="{{ url_for('homepage.static', filename='js/homepage.js') }}"></script>
+{% endblock %}
+
+{% block page_body_main %}
+    <!--first area-->
+    <div class="main-banner">
+        <img class="imgfirst" src="{{ url_for('homepage.static', filename='media/first image.jpg') }}" alt="fimg">
+        <div class="img-overlay">
+            <div class="caption">
+                <h1>Welcome To Omer's <br>Barbershop</h1>
+                <div class="main-button">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--second area-->
+    <div class="slider">
+    </div>
+{% endblock %}
+
+{% block page_body_js %}
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+    </script>
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

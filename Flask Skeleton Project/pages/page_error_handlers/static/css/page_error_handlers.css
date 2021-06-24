@@ -1,0 +1,36 @@
+.error {
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 25px;
+}
+.hero2{
+    min-height: 350px;
+    text-align: center
+}
+.hero2 a.button {
+    margin-top: 40px;
+    margin-right: 20px;
+}
+a.button {
+    width: auto;
+    display: inline-block;
+    padding: 6px 12px;
+    background: transparent;
+    border: 2px solid #313131;
+    color: black;
+    cursor: pointer;
+    border-radius: 7px;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+i.fab.fa-arrow-left {
+    font-size: 16px;
+    float: left;
+    padding-right: 30px;
+}
+
+a.button:hover {
+    background-color: #0f4675;
+    border: 2px solid #0f4675;
+    color: white;
+}

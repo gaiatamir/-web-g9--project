@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="{{ url_for('header.static', filename='css/header.css') }}"/>
+
+<!--header-->
+<header class="main-header" >
+
+    <a href="#" class="logo"></a>
+
+    <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
+    <nav id="menu" class="main-nav" role="navigation">
+        <ul class="main-menu">
+            <li><a href="{{ url_for('homepage.index') }}">Home</a></li>
+            <li><a href="{{ url_for('about.index') }}">About Us</a></li>
+            <li><a href="{{ url_for('appointments.index') }}">Appointments</a></li>
+            <li><a href="{{ url_for('gallery.index') }}">Gallery</a></li>
+            <li><a href="#footer">Contact</a></li>
+            <li><a href="{{ url_for('login.index') }}">Log-in</a></li>
+            <li><a href="{{ url_for('account.index') }}">My Account</a></li>
+        </ul>
+    </nav>
+</header>
+

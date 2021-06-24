@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad044007-d300-43fc-a743-396e9e1b9b4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask Skeleton Project/components/footer/footer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask Skeleton Project/components/footer/static/css/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask Skeleton Project/components/footer/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask Skeleton Project/pages/account/account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask Skeleton Project/pages/account/static/css/LogInRegister.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask Skeleton Project/pages/account/templates/account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask Skeleton Project/pages/homepage/static/media/mainlogobarber.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask Skeleton Project/pages/homepage/templates/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/-web-g9--project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/-web-g9--project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Capture1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Flask Skeleton Project/pages/homepage/static/media/Capture1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Capture2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Flask Skeleton Project/pages/homepage/static/media/Capture2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Capture3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Flask Skeleton Project/pages/homepage/static/media/Capture3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogInRegister.css" beforeDir="false" afterPath="$PROJECT_DIR$/Flask Skeleton Project/pages/login/static/css/LogInRegister.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogInRegister.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flask Skeleton Project/pages/login/templates/LogInRegister.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogInRegister.js" beforeDir="false" afterPath="$PROJECT_DIR$/Flask Skeleton Project/pages/login/static/js/LogInRegister.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Flask Skeleton Project/pages/homepage/static/css/Main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutusimg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Flask Skeleton Project/pages/about/static/media/aboutusimg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/barberTools.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Flask Skeleton Project/pages/appointments/static/media/barberTools.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Flask Skeleton Project/pages/homepage/static/media/first image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainlogobarber.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/Flask Skeleton Project/components/footer/static/media/mainlogobarber.JPG" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="1twGkOEKXxp90D9jGMQifHU4I7Z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Flask Skeleton Project/pages/about/static/media" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="-web-g9--project" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="-web-g9--project" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gaia\PycharmProjects\-web-g9--project\Flask Skeleton Project\pages\about\static\media" />
+      <recent name="C:\Users\gaia\PycharmProjects\-web-g9--project\Flask Skeleton Project\static\media" />
+      <recent name="C:\Users\gaia\PycharmProjects\-web-g9--project\Flask Skeleton Project\pages\homepage\static\media" />
+      <recent name="C:\Users\gaia\PycharmProjects\-web-g9--project\Flask Skeleton Project\pages\login\static\media" />
+      <recent name="C:\Users\gaia\PycharmProjects\-web-g9--project\Flask Skeleton Project\components\header\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gaia\PycharmProjects\-web-g9--project\Flask Skeleton Project\static\media\img" />
+      <recent name="C:\Users\gaia\PycharmProjects\-web-g9--project\Flask Skeleton Project" />
+      <recent name="C:\Users\gaia\PycharmProjects\-web-g9--project\Flask Skeleton Project\pages\login\static\js" />
+      <recent name="C:\Users\gaia\PycharmProjects\-web-g9--project\Flask Skeleton Project\pages\login\static\css" />
+      <recent name="C:\Users\gaia\PycharmProjects\-web-g9--project\Flask Skeleton Project\pages\login\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flask server.Flask (Flask Skeleton Project/app.py)">
+    <configuration name="main_menu.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/-web-g9--project/Flask Skeleton Project/components/main_menu/templates/main_menu.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="about" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="-web-g9--project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flask Skeleton Project/pages/about" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Flask Skeleton Project/pages/about/about.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="db_manager" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="-web-g9--project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flask Skeleton Project/utilities/db" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Flask Skeleton Project/utilities/db/db_manager.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="-web-g9--project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flask Skeleton Project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Flask Skeleton Project/settings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="-web-g9--project" type="Python.FlaskServer">
+      <module name="-web-g9--project" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\gaia\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Development Debug Config" type="Python.FlaskServer">
+      <option name="flaskDebug" value="true" />
+      <module name="-web-g9--project" />
+      <option name="target" value="C:\Users\gaia\PycharmProjects\-web-g9--project\Flask Skeleton Project\app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (Flask Skeleton Project/app.py)" type="Python.FlaskServer">
+      <option name="flaskDebug" value="true" />
+      <module name="-web-g9--project" />
+      <option name="target" value="$PROJECT_DIR$/Flask Skeleton Project/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\gaia\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask" type="Python.FlaskServer" nameIsGenerated="true">
+      <module name="-web-g9--project" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Flask server.Flask" />
+      <item itemvalue="Flask server.-web-g9--project" />
+      <item itemvalue="Flask server.Flask (Flask Skeleton Project/app.py)" />
+      <item itemvalue="Flask server.Development Debug Config" />
+      <item itemvalue="JavaScript Debug.main_menu.html" />
+      <item itemvalue="Python.about" />
+      <item itemvalue="Python.db_manager" />
+      <item itemvalue="Python.settings" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.settings" />
+        <item itemvalue="Python.db_manager" />
+        <item itemvalue="Python.about" />
+        <item itemvalue="JavaScript Debug.main_menu.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad044007-d300-43fc-a743-396e9e1b9b4e" name="Default Changelist" comment="" />
+      <created>1623672881340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623672881340</updated>
+      <workItem from="1623672992043" duration="18671000" />
+      <workItem from="1623744576248" duration="32783000" />
+      <workItem from="1623838868910" duration="35662000" />
+      <workItem from="1624014744574" duration="26015000" />
+      <workItem from="1624200942704" duration="8637000" />
+      <workItem from="1624369307020" duration="10813000" />
+      <workItem from="1624528054915" duration="4120000" />
+      <workItem from="1624554048439" duration="513000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/_web_g9__project$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1623677549123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/_web_g9__project$Development_Debug_Config.coverage" NAME="Development Debug Config Coverage Results" MODIFIED="1623782867967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/_web_g9__project$Flask__Flask_Skeleton_Project_app_py_.coverage" NAME="Flask (Flask Skeleton Project/app.py) Coverage Results" MODIFIED="1624554477022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_web_g9__project$_web_g9__project.coverage" NAME="-web-g9--project Coverage Results" MODIFIED="1623676871152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_web_g9__project$settings.coverage" NAME="settings Coverage Results" MODIFIED="1623867093193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask Skeleton Project" />
+    <SUITE FILE_PATH="coverage/_web_g9__project$db_manager.coverage" NAME="db_manager Coverage Results" MODIFIED="1623840539946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask Skeleton Project/utilities/db" />
+    <SUITE FILE_PATH="coverage/_web_g9__project$about.coverage" NAME="about Coverage Results" MODIFIED="1623762365350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask Skeleton Project/pages/about" />
+  </component>
+</project>

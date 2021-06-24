@@ -1,0 +1,128 @@
+{% extends 'base.html' %}
+
+{% set page_head_title = 'appointments' %}
+
+{% block page_head_css %}
+    <link rel="stylesheet" href="{{ url_for('appointments.static', filename='css/Appointments.css') }}"/>
+{% endblock %}
+
+
+
+{% block page_body_main %}
+    <!-- Appoitment Section -->
+    <section id="section4" class="Make-an-appointment" style="text-align: center">
+        <div class="appointment-overlay">
+            <br> <br> <br><br> <br> <br>
+            <h1>Hey, make an appointment..</h1>
+            <p>Fill in the next fields </p>
+
+            <form action="/newApp" id="Contact" method="post" onsubmit="return ValidateForm1(this);"
+                  style="font-family: 'Montserrat', sans-serif">
+                <script type="text/javascript">
+                    function ValidateForm1(frm1) {
+                        if (frm1.Name.value == "") {
+                            alert('First Name is required.');
+                            frm1.Name.focus();
+                            return false;
+                        }
+                        if (frm1.cutDate.value == "") {
+                            alert('DT is required.');
+                            frm1.cutDate.focus();
+                            return false;
+                        }
+                        if (frm1.email.value == "") {
+                            alert('Email address is required.');
+                            frm1.email.focus();
+                            return false;
+                        }
+                        if (frm1.email.value.indexOf("@") < 1 || frm1.email.value.indexOf(".") < 1) {
+                            alert('Please enter a valid email address.');
+                            frm1.email.focus();
+                            return false;
+                        }
+                        return true;
+                    }
+                </script>
+                <div class="row" style="text-align: center">
+                    <div class="column">
+                        <label for="Name">Name*:</label>
+                        <br>
+                        <input id="Name" name="Name" type="text" maxlength="60"/>
+                        <Br> <br>
+                        <label for="Pnumber">Phone number:</label>
+                        <Br><input id="Pnumber" name="Pnumber" type="text" maxlength="43"
+                                   style="width:100%;max-width:250px;"/>
+                        <Br> <br>
+                        <label for="email">Email address*:</label>
+                        <Br>
+                        <input id="email" name="email" type="email" maxlength="90"
+                               style="width:100%;max-width:250px;"/>
+                        <Br> <br>
+                    </div>
+                    <div class="column">
+                        <label for="cutDate">Hair Cut Date:*</label>
+                        <input type="datetime-local" id="cutDate" name="cutDate" min="2021-06-26T08:00" step="3000">
+                        <Br><Br><Br> <br>
+                        * - required fields
+                        <Br><Br><Br>
+                        <button class="submitbut" type="submit" id="fcf-button" name="submit">Send</button>
+                        <Br>
+                    </div>
+                    <div class="column">
+                        <label>Enter The Type Of The Service:*</label>
+                        <Br>
+                        <label>
+                            <input type="text" id="service" name="service">
+                        </label>
+                        <Br> <br>
+                        <label for="Comments">Comments:</label>
+                        <Br>
+                        <input id="Comments" name="Comments" type="text"
+                               style="width:100%;max-width:350px;">
+                        <Br>
+                    </div>
+
+                </div>
+                <br><br>
+                {% if massage %}
+                    <p class="massage"> {{ massage }}</p>
+                {% endif %}
+            </form>
+        </div>
+
+        <div class="appointment-overlay">
+            <br> <br> <br>
+            <h1>Hey, If you want to cancel your appointment</h1>
+            <p>Fill in the next fields </p>
+
+            <form action="/deleteAppoint" id="Contact" method="post" style="font-family: 'Montserrat', sans-serif">
+                <div class="row" style="text-align: center">
+                    <div class="column">
+                        <label for="email">Enter Your Email*:</label>
+                        <Br>
+                        <input id="email" name="email" type="email" maxlength="90"
+                               style="width:100%;max-width:250px;"/>
+                        <Br> <br>
+                    </div>
+                    <div class="column">
+                        <label for="cutDate">Enter Your Hair Cut Date:*</label>
+                        <input type="datetime-local" id="cutDate" name="cutDate" min="2021-06-26T08:00" step="3000">
+                        <Br><Br><Br> <br>
+                        * - required fields
+                        <Br><Br><Br>
+                        <button class="submitbut" type="submit" id="fcf-button" name="submit">Send</button>
+
+                        <Br>
+                    </div>
+                    {% if massage %}
+                        <p class="massage"> {{ massage }}</p>
+                    {% endif %}
+                </div>
+                <br><br>
+
+            </form>
+        </div>
+
+    </section>
+{% endblock %}
+

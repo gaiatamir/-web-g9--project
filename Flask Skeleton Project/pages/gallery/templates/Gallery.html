@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% set page_head_title = 'gallery' %}
+
+{% block page_head_css %}
+    <link rel="stylesheet" href="{{ url_for('gallery.static', filename='css/Gallery.css') }}"/>
+{% endblock %}
+
+
+
+<!----Gallery-->
+{% block page_body_main %}
+    <div class="galleryClass">
+        <br> <br> <br><br> <br> <br>
+        <h1 style="color: white">Our Hair Cuts Gallery </h1>
+        {% if GalleryImages %}
+            <div class="gallery">
+                {% for image in GalleryImages %}
+                    <img src="{{ url_for('gallery.static', filename=image.image) }}"
+                         style="width: 250px; height: 250px">
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+{% endblock %}

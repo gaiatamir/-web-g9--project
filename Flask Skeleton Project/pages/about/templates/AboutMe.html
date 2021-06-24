@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% set page_head_title = 'About' %}
+
+{% block page_head_css %}
+    <link rel="stylesheet" href="{{ url_for('about.static', filename='css/AboutMe.css') }}"/>
+{% endblock %}
+
+{% block page_body_main %}
+    <!---AboutMe-->
+    <section class="section aboutus" id="section2" style="margin: 0">
+        <div class="left-content">
+            <div class="row">
+                <div class="column">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h4>Omer Dahan <em>Barber Expert</em></h4>
+                    <p>Hello Guys<br><br>
+                        My name is Omer, im 27 years old<br><br>
+                        I started by cutting my friends hair before they went to the army,
+                        two years later they didnt agree anyone else to cut their hair<br><br>
+                        the rest is history<br><br>
+                        Im inviting you to have a first free haircut, on the house<br><br>
+                        but be carful, you will get addicted!</p>
+                </div>
+                <div class="column">
+                    <div class="aboutImg"></div>
+                </div>
+            </div>
+        </div>
+        <div class="down-content">
+            <h4>Customers <em>Recommends</em></h4>
+            <br>
+            {% if recommends %}
+                {% for recommend in recommends %}
+                    <div class="oneLine">
+                        <img src="{{ url_for('homepage.static', filename=recommend.image) }}"
+                             style="width: 250px; height: 250px">
+                        <br><q>{{ recommend.details }}</q>
+                        <p class="author">- {{ recommend.name }} -</p>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </section>
+{% endblock %}
+
+

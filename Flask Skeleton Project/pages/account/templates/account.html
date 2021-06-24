@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+
+{% set page_head_title = 'account' %}
+
+{% block page_head_css %}
+    <link rel="stylesheet" href="{{ url_for('account.static', filename='css/LoginRegister.css') }}"/>
+{% endblock %}
+
+
+{% block page_body_main %}
+    <section id="section4" class="Make-an-appointment" style="text-align: center">
+        <div class="appointment-overlay">
+            <div class="login-wrap"><br><br><br>
+                <div class="login-html">
+                    <div class="username">
+                        <br><br>
+                        {#                <h1>Hi, {{ session.get('name') }}</h1>#}
+                        <h2>Edit Your Account</h2>
+                    </div>
+                    <h4>Update your Password:</h4>
+                    <form action="/account" method="POST">
+                        <div class="sign-in-htm">
+                            <div>
+                                <label for="pass" class="label" style="color: black">Your current password:</label>
+                                <input id="pass" type="password" name="pass" class="input" data-type="password"
+                                       required>
+                            </div>
+                            <div>
+                                <label for="newpass" class="label" style="color: black">Your new password:</label>
+                                <input id="pass" type="password" name="newpass" class="input" data-type="password"
+                                       required>
+                            </div>
+                            <div>
+                                <label for="newpass1" class="label" style="color: black">Type Again Your new
+                                    password:</label>
+                                <input id="pass" type="password" name="newpass1" class="input" data-type="password"
+                                       required>
+                            </div>
+                            <button class="submitbut" type="submit" id="fcf-button" name="submit">Update</button>
+
+                            <div class="hr"></div>
+                            {% if massage %}
+                                <p class="massage"> {{ massage }}</p>
+                            {% endif %}
+                        </div>
+                    </form>
+                    <h4>Delete your Account:</h4>
+                    <form action="/deleteAccount" method="POST">
+                        <div class="sign-up-htm">
+                            <div class="group">
+                                <label for="delete-text" class="label" style="color: black">Enter your email:</label>
+                                <input id="delete-text" type="text" name="userEmail" class="input" required>
+                            </div>
+                            <div class="group">
+                                <button class="submitbut" type="submit" id="fcf-button" name="submit">Delete</button>
+                            </div>
+                            <div class="hr"></div>
+                        </div>
+                    </form>
+                    <h4>Please Add your Recommend</h4>
+                    <form action="/addRecommend" method="POST">
+                        <div class="column">
+                            <label style="color: black">Type your Nickname</label>
+                            <Br>
+                            <label>
+                                <input type="text" id="name" name="name">
+                            </label>
+                            <Br> <br>
+                            <label for="recommend" style="color: black">Your Recommend:</label>
+                            <Br>
+                            <input id="recommend" name="recommend" type="text"
+                                   style="width:100%;max-width:350px;">
+                            <Br>
+                            <button class="submitbut" type="submit" id="fcf-button" name="submit">Add</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
